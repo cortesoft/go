@@ -22,7 +22,7 @@ end
 
 
 configure do
-  set :erb, :escape_html => true
+  set :erb, :escape_html => false
   set :server, :puma
   set :port, 80
 end
